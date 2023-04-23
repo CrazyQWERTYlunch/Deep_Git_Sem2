@@ -46,6 +46,7 @@
                 text.length + ' символов<br>' +
                 '<b>Без пробелов:</b> ' + withoutSpaces + '<br>' +
                 '<b>Количество слов:</b> ' + wordsCount;
+<<<<<<< HEAD
         });
 
         textArea.addEventListener('keyup', function(){
@@ -55,6 +56,8 @@
         resetButton.addEventListener('click', function(){
             textArea.value = '';
             changeButtonsStatus(false);
+=======
+>>>>>>> parent of 560a300 (removed word counting)
         });
     });
 }());
